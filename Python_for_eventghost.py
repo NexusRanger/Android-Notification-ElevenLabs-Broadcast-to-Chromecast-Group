@@ -34,9 +34,9 @@ message = message.replace("!", "")
 timestamp = datetime.datetime.now().strftime("%H:%M:%S")
 logging.debug(timestamp +": "+message)
 
-file_path = r'C:\Data\Python\VoiceFiles\message.txt'
-with open(file_path, 'w') as f:
-    f.write('Hello, world!')
+#file_path = r'C:\Data\Python\VoiceFiles\message.txt'  # for testing
+#with open(file_path, 'w') as f:
+#    f.write('Hello, world!')
 
 # Define the path to the message file
 file_path = r"C:\Data\Python\VoiceFiles\message.txt"
